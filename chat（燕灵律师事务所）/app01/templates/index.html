@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        @media screen and (min-width:1000px) {
+            .message {
+                width: 300px;
+                height: 500px;
+                border: 1px solid rgb(233, 233, 233);
+                overflow-y: auto;
+            }
+            body {
+                width: 304px;
+                margin: 0 auto;
+            }
+        }
+        @media (max-width:1000px) and (min-width:345px) {
+            .message {
+                width: 300px;
+                height: 500px;
+                border: 1px solid rgb(233, 233, 233);
+                overflow-y: auto;
+                margin-top: 16px;
+            }
+            body {
+                width: 304px;
+                margin: 0 auto;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="message" id="message">
+</div>
+<div>
+    <input type="text" placeholder="send to" id="txt">
+    <input type="button" value="send" onclick="sendMessage()">
+    <input type="button" value="close" onclick="closeConn()">
+</div>
+<script type="text/javascript">
+    socket = new WebSocket("wss://hebeiyanling.cn/app/room/{{ tel }}&{{ id }}/");
+    socket.onopen = function (event) {
+        let tag = document.createElement("div");
+        tag.innerText = "登录成功"
+        document.getElementById("message").appendChild(tag);
+    }
+    socket.onmessage = function (event){
+        let tag = document.createElement("div");
+        tag.innerText = event.data
+        document.getElementById("message").appendChild(tag);
+    }
+    socket.onclose = function (event) {
+        let tag = document.createElement("div");
+        tag.innerText = "断开连接"
+        document.getElementById("message").appendChild(tag);
+    }
+    function sendMessage(){
+        let txt = document.getElementById("txt");
+         socket.send(txt.value);
+    }
+    function closeConn (){
+        socket.close();
+    }
+
+</script>
+</body>
+</html>

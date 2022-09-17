@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <style>
+        @media screen and (min-width:1000px) {
+            .box {
+                width: 230px;
+                margin: 16px auto;
+            }
+            input {
+                display: block;
+                margin: 16px 0 0 122px;
+                width: 80px;
+                height: 30px;
+            }
+            select {
+                height: 30px;
+            }
+        }
+        @media (max-width:1000px) and (min-width:345px) {
+            .box {
+                width: 230px;
+                margin: 16px auto;
+            }
+            input {
+                display: block;
+                margin: 16px 0 0 122px;
+                width: 80px;
+                height: 30px;
+            }
+            select {
+                height: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <span>请选择</span>
+    <span></span>
+
+    <select style="width: 150px;">
+        {% for i in user_obj %}
+            <option id="opt">{{ i }}</option>
+        {% endfor %}
+    </select>
+    <input type="button" value="确定" onclick="sendMessage()">
+</div>
+<script>
+    function sendMessage() {
+        let phone = document.getElementById("opt");
+        console.log(phone.value);
+        if(phone){
+             window.open("https://hebeiyanling.cn/app/?tel=" + phone.value + "&id=客服",  "_self");
+        }else{
+            alert("用户已经离开");
+        }
+    }
+</script>
+</body>
+</html>

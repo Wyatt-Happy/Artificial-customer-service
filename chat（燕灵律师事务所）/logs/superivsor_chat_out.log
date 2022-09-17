@@ -1,0 +1,228 @@
+Could not connect to 127.0.0.1: 52453
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2021.1.1\plugins\python\helpers\pydev\_pydevd_bundle\pydevd_comm.py", line 456, in start_client
+    s.connect((host, port))
+ConnectionRefusedError: [WinError 10061] Ŀܾ޷ӡ
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2021.1.1\plugins\python\helpers\pydev\pydevd.py", line 2173, in <module>
+    main()
+  File "C:\Program Files\JetBrains\PyCharm 2021.1.1\plugins\python\helpers\pydev\pydevd.py", line 2055, in main
+    dispatcher.connect(host, port)
+  File "C:\Program Files\JetBrains\PyCharm 2021.1.1\plugins\python\helpers\pydev\pydevd.py", line 1826, in connect
+    self.client = start_client(self.host, self.port)
+  File "C:\Program Files\JetBrains\PyCharm 2021.1.1\plugins\python\helpers\pydev\_pydevd_bundle\pydevd_comm.py", line 456, in start_client
+    s.connect((host, port))
+ConnectionRefusedError: [WinError 10061] Ŀܾ޷ӡ
+Could not connect to 127.0.0.1: 52453
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2021.1.1\plugins\python\helpers\pydev\_pydevd_bundle\pydevd_comm.py", line 456, in start_client
+    s.connect((host, port))
+ConnectionRefusedError: [WinError 10061] Ŀܾ޷ӡ
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2021.1.1\plugins\python\helpers\pydev\pydevd.py", line 2173, in <module>
+    main()
+  File "C:\Program Files\JetBrains\PyCharm 2021.1.1\plugins\python\helpers\pydev\pydevd.py", line 2055, in main
+    dispatcher.connect(host, port)
+  File "C:\Program Files\JetBrains\PyCharm 2021.1.1\plugins\python\helpers\pydev\pydevd.py", line 1826, in connect
+    self.client = start_client(self.host, self.port)
+  File "C:\Program Files\JetBrains\PyCharm 2021.1.1\plugins\python\helpers\pydev\_pydevd_bundle\pydevd_comm.py", line 456, in start_client
+    s.connect((host, port))
+ConnectionRefusedError: [WinError 10061] Ŀܾ޷ӡ
+Could not connect to 127.0.0.1: 52453
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2021.1.1\plugins\python\helpers\pydev\_pydevd_bundle\pydevd_comm.py", line 456, in start_client
+    s.connect((host, port))
+ConnectionRefusedError: [WinError 10061] Ŀܾ޷ӡ
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2021.1.1\plugins\python\helpers\pydev\pydevd.py", line 2173, in <module>
+    main()
+  File "C:\Program Files\JetBrains\PyCharm 2021.1.1\plugins\python\helpers\pydev\pydevd.py", line 2055, in main
+    dispatcher.connect(host, port)
+  File "C:\Program Files\JetBrains\PyCharm 2021.1.1\plugins\python\helpers\pydev\pydevd.py", line 1826, in connect
+    self.client = start_client(self.host, self.port)
+  File "C:\Program Files\JetBrains\PyCharm 2021.1.1\plugins\python\helpers\pydev\_pydevd_bundle\pydevd_comm.py", line 456, in start_client
+    s.connect((host, port))
+ConnectionRefusedError: [WinError 10061] Ŀܾ޷ӡ
+Could not connect to 127.0.0.1: 52453
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2021.1.1\plugins\python\helpers\pydev\_pydevd_bundle\pydevd_comm.py", line 456, in start_client
+    s.connect((host, port))
+ConnectionRefusedError: [WinError 10061] Ŀܾ޷ӡ
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2021.1.1\plugins\python\helpers\pydev\pydevd.py", line 2173, in <module>
+    main()
+  File "C:\Program Files\JetBrains\PyCharm 2021.1.1\plugins\python\helpers\pydev\pydevd.py", line 2055, in main
+    dispatcher.connect(host, port)
+  File "C:\Program Files\JetBrains\PyCharm 2021.1.1\plugins\python\helpers\pydev\pydevd.py", line 1826, in connect
+    self.client = start_client(self.host, self.port)
+  File "C:\Program Files\JetBrains\PyCharm 2021.1.1\plugins\python\helpers\pydev\_pydevd_bundle\pydevd_comm.py", line 456, in start_client
+    s.connect((host, port))
+ConnectionRefusedError: [WinError 10061] Ŀܾ޷ӡ
+runnerw.exe: CreateProcess failed with error 2: runnerw.exe: CreateProcess failed with error 2: runnerw.exe: CreateProcess failed with error 2: runnerw.exe: CreateProcess failed with error 2: INFO:waitress:Serving on http://[::]:8888
+INFO:waitress:Serving on http://0.0.0.0:8888
+Not Found: /app/room/13770855741&None/
+WARNING:django.request:Not Found: /app/room/13770855741&None/
+INFO:waitress:Serving on http://[::]:8888
+INFO:waitress:Serving on http://0.0.0.0:8888
+ERROR:waitress:Exception while serving /app/
+Traceback (most recent call last):
+  File "C:\env\chat_env\lib\site-packages\waitress\channel.py", line 428, in service
+    task.service()
+  File "C:\env\chat_env\lib\site-packages\waitress\task.py", line 168, in service
+    self.execute()
+  File "C:\env\chat_env\lib\site-packages\waitress\task.py", line 434, in execute
+    app_iter = self.channel.server.application(environ, start_response)
+TypeError: __call__() missing 1 required positional argument: 'send'
+ERROR:waitress:Exception while serving /app/
+Traceback (most recent call last):
+  File "C:\env\chat_env\lib\site-packages\waitress\channel.py", line 428, in service
+    task.service()
+  File "C:\env\chat_env\lib\site-packages\waitress\task.py", line 168, in service
+    self.execute()
+  File "C:\env\chat_env\lib\site-packages\waitress\task.py", line 434, in execute
+    app_iter = self.channel.server.application(environ, start_response)
+TypeError: __call__() missing 1 required positional argument: 'send'
+ERROR:waitress:Exception while serving /app/
+Traceback (most recent call last):
+  File "C:\env\chat_env\lib\site-packages\waitress\channel.py", line 428, in service
+    task.service()
+  File "C:\env\chat_env\lib\site-packages\waitress\task.py", line 168, in service
+    self.execute()
+  File "C:\env\chat_env\lib\site-packages\waitress\task.py", line 434, in execute
+    app_iter = self.channel.server.application(environ, start_response)
+TypeError: __call__() missing 1 required positional argument: 'send'
+ERROR:waitress:Exception while serving /app/chat
+Traceback (most recent call last):
+  File "C:\env\chat_env\lib\site-packages\waitress\channel.py", line 428, in service
+    task.service()
+  File "C:\env\chat_env\lib\site-packages\waitress\task.py", line 168, in service
+    self.execute()
+  File "C:\env\chat_env\lib\site-packages\waitress\task.py", line 434, in execute
+    app_iter = self.channel.server.application(environ, start_response)
+TypeError: __call__() missing 1 required positional argument: 'send'
+ERROR:waitress:Exception while serving /app/
+Traceback (most recent call last):
+  File "C:\env\chat_env\lib\site-packages\waitress\channel.py", line 428, in service
+    task.service()
+  File "C:\env\chat_env\lib\site-packages\waitress\task.py", line 168, in service
+    self.execute()
+  File "C:\env\chat_env\lib\site-packages\waitress\task.py", line 434, in execute
+    app_iter = self.channel.server.application(environ, start_response)
+TypeError: __call__() missing 1 required positional argument: 'send'
+ERROR:waitress:Exception while serving /app/
+Traceback (most recent call last):
+  File "C:\env\chat_env\lib\site-packages\waitress\channel.py", line 428, in service
+    task.service()
+  File "C:\env\chat_env\lib\site-packages\waitress\task.py", line 168, in service
+    self.execute()
+  File "C:\env\chat_env\lib\site-packages\waitress\task.py", line 434, in execute
+    app_iter = self.channel.server.application(environ, start_response)
+TypeError: __call__() missing 1 required positional argument: 'send'
+ERROR:waitress:Exception while serving /fuN3
+Traceback (most recent call last):
+  File "C:\env\chat_env\lib\site-packages\waitress\channel.py", line 428, in service
+    task.service()
+  File "C:\env\chat_env\lib\site-packages\waitress\task.py", line 168, in service
+    self.execute()
+  File "C:\env\chat_env\lib\site-packages\waitress\task.py", line 434, in execute
+    app_iter = self.channel.server.application(environ, start_response)
+TypeError: __call__() missing 1 required positional argument: 'send'
+usage: daphne [-h] [-p PORT] [-b HOST] [--websocket_timeout WEBSOCKET_TIMEOUT]
+              [--websocket_connect_timeout WEBSOCKET_CONNECT_TIMEOUT]
+              [-u UNIX_SOCKET] [--fd FILE_DESCRIPTOR] [-e SOCKET_STRINGS]
+              [-v VERBOSITY] [-t HTTP_TIMEOUT] [--access-log ACCESS_LOG]
+              [--ping-interval PING_INTERVAL] [--ping-timeout PING_TIMEOUT]
+              [--application-close-timeout APPLICATION_CLOSE_TIMEOUT]
+              [--ws-protocol [WS_PROTOCOLS [WS_PROTOCOLS ...]]]
+              [--root-path ROOT_PATH] [--proxy-headers]
+              [--proxy-headers-host PROXY_HEADERS_HOST]
+              [--proxy-headers-port PROXY_HEADERS_PORT] [-s SERVER_NAME]
+              application
+daphne: error: unrecognized arguments: --listen=*:8888
+usage: daphne [-h] [-p PORT] [-b HOST] [--websocket_timeout WEBSOCKET_TIMEOUT]
+              [--websocket_connect_timeout WEBSOCKET_CONNECT_TIMEOUT]
+              [-u UNIX_SOCKET] [--fd FILE_DESCRIPTOR] [-e SOCKET_STRINGS]
+              [-v VERBOSITY] [-t HTTP_TIMEOUT] [--access-log ACCESS_LOG]
+              [--ping-interval PING_INTERVAL] [--ping-timeout PING_TIMEOUT]
+              [--application-close-timeout APPLICATION_CLOSE_TIMEOUT]
+              [--ws-protocol [WS_PROTOCOLS [WS_PROTOCOLS ...]]]
+              [--root-path ROOT_PATH] [--proxy-headers]
+              [--proxy-headers-host PROXY_HEADERS_HOST]
+              [--proxy-headers-port PROXY_HEADERS_PORT] [-s SERVER_NAME]
+              application
+daphne: error: unrecognized arguments: --listen=*:8888
+usage: daphne [-h] [-p PORT] [-b HOST] [--websocket_timeout WEBSOCKET_TIMEOUT]
+              [--websocket_connect_timeout WEBSOCKET_CONNECT_TIMEOUT]
+              [-u UNIX_SOCKET] [--fd FILE_DESCRIPTOR] [-e SOCKET_STRINGS]
+              [-v VERBOSITY] [-t HTTP_TIMEOUT] [--access-log ACCESS_LOG]
+              [--ping-interval PING_INTERVAL] [--ping-timeout PING_TIMEOUT]
+              [--application-close-timeout APPLICATION_CLOSE_TIMEOUT]
+              [--ws-protocol [WS_PROTOCOLS [WS_PROTOCOLS ...]]]
+              [--root-path ROOT_PATH] [--proxy-headers]
+              [--proxy-headers-host PROXY_HEADERS_HOST]
+              [--proxy-headers-port PROXY_HEADERS_PORT] [-s SERVER_NAME]
+              application
+daphne: error: unrecognized arguments: --listen=*:8888
+usage: daphne [-h] [-p PORT] [-b HOST] [--websocket_timeout WEBSOCKET_TIMEOUT]
+              [--websocket_connect_timeout WEBSOCKET_CONNECT_TIMEOUT]
+              [-u UNIX_SOCKET] [--fd FILE_DESCRIPTOR] [-e SOCKET_STRINGS]
+              [-v VERBOSITY] [-t HTTP_TIMEOUT] [--access-log ACCESS_LOG]
+              [--ping-interval PING_INTERVAL] [--ping-timeout PING_TIMEOUT]
+              [--application-close-timeout APPLICATION_CLOSE_TIMEOUT]
+              [--ws-protocol [WS_PROTOCOLS [WS_PROTOCOLS ...]]]
+              [--root-path ROOT_PATH] [--proxy-headers]
+              [--proxy-headers-host PROXY_HEADERS_HOST]
+              [--proxy-headers-port PROXY_HEADERS_PORT] [-s SERVER_NAME]
+              application
+daphne: error: unrecognized arguments: --listen=*:8888
+2022-09-17 14:15:47,630 INFO     Starting server at tcp:port=8888:interface=0.0.0.0
+2022-09-17 14:15:47,630 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2022-09-17 14:15:47,630 INFO     Configuring endpoint tcp:port=8888:interface=0.0.0.0
+2022-09-17 14:15:47,630 INFO     Listening on TCP address 0.0.0.0:8888
+2022-09-17 14:19:34,645 INFO     Starting server at tcp:port=8888:interface=0.0.0.0
+2022-09-17 14:19:34,645 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2022-09-17 14:19:34,645 INFO     Configuring endpoint tcp:port=8888:interface=0.0.0.0
+2022-09-17 14:19:34,645 INFO     Listening on TCP address 0.0.0.0:8888
+Not Found: /app/chat/
+2022-09-17 14:24:14,919 WARNING  Not Found: /app/chat/
+2022-09-17 14:27:05,481 WARNING  Application instance <Task pending name='Task-89' coro=<ProtocolTypeRouter.__call__() running at C:\env\chat_env\lib\site-packages\channels\routing.py:71> wait_for=<Future pending cb=[<TaskWakeupMethWrapper object at 0x000001A70360F580>()]>> for connection <WebSocketProtocol client=['127.0.0.1', 52679] path=b'/app/room/13784471203&%E5%AE%A2%E6%9C%8D/'> took too long to shut down and was killed.
+2022-09-17 14:28:22,308 INFO     Starting server at tcp:port=8888:interface=0.0.0.0
+2022-09-17 14:28:22,308 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2022-09-17 14:28:22,308 INFO     Configuring endpoint tcp:port=8888:interface=0.0.0.0
+2022-09-17 14:28:22,308 INFO     Listening on TCP address 0.0.0.0:8888
+Not Found: httpbin.org:443
+2022-09-17 15:12:16,588 WARNING  Not Found: httpbin.org:443
+Not Found: http://110.242.68.4/
+2022-09-17 15:13:40,607 WARNING  Not Found: http://110.242.68.4/
+Not Found: cn.bing.com:443
+2022-09-17 15:14:05,030 WARNING  Not Found: cn.bing.com:443
+Not Found: www.baidu.com:443
+2022-09-17 15:14:05,514 WARNING  Not Found: www.baidu.com:443
+Not Found: http://www.minghui.org/
+2022-09-17 15:14:05,670 WARNING  Not Found: http://www.minghui.org/
+Not Found: www.voanews.com:443
+2022-09-17 15:14:05,905 WARNING  Not Found: www.voanews.com:443
+Not Found: http://www.rfa.org/english/
+2022-09-17 15:14:06,436 WARNING  Not Found: http://www.rfa.org/english/
+Not Found: http://www.soso.com/
+2022-09-17 15:14:06,498 WARNING  Not Found: http://www.soso.com/
+Not Found: http://www.epochtimes.com/
+2022-09-17 15:14:06,983 WARNING  Not Found: http://www.epochtimes.com/
+Not Found: http://www.wujieliulan.com/
+2022-09-17 15:14:07,748 WARNING  Not Found: http://www.wujieliulan.com/
+Not Found: www.so.com:443
+2022-09-17 15:14:08,498 WARNING  Not Found: www.so.com:443
+Not Found: http://dongtaiwang.com/
+2022-09-17 15:14:09,123 WARNING  Not Found: http://dongtaiwang.com/
+2022-09-17 15:34:06,995 WARNING  Application instance <Task pending name='Task-7' coro=<ProtocolTypeRouter.__call__() running at C:\env\chat_env\lib\site-packages\channels\routing.py:71> wait_for=<Future pending cb=[<TaskWakeupMethWrapper object at 0x0000021C564E1E20>()]>> for connection <WebSocketProtocol client=['127.0.0.1', 52783] path=b'/app/room/13343264170&None/'> took too long to shut down and was killed.
+2022-09-17 18:48:33,823 WARNING  Application instance <Task pending name='Task-72' coro=<ProtocolTypeRouter.__call__() running at C:\env\chat_env\lib\site-packages\channels\routing.py:71> wait_for=<Future pending cb=[<TaskWakeupMethWrapper object at 0x0000021C564E1070>()]>> for connection <WebSocketProtocol client=['127.0.0.1', 53401] path=b'/app/room/13784471203&%E5%AE%A2%E6%9C%8D/'> took too long to shut down and was killed.
+Not Found: http://fingerprints.bablosoft.com/ip
+2022-09-17 19:48:08,788 WARNING  Not Found: http://fingerprints.bablosoft.com/ip
+Not Found: /
+2022-09-17 21:10:55,756 WARNING  Not Found: /
+Not Found: http://www.qq.com/404/search_children.js
+2022-09-17 21:55:01,449 WARNING  Not Found: http://www.qq.com/404/search_children.js
+Not Found: httpbin.org:443
+2022-09-17 22:01:22,821 WARNING  Not Found: httpbin.org:443
+Not Found: /
+2022-09-17 22:03:48,555 WARNING  Not Found: /

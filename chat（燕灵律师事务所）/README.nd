@@ -1,0 +1,53 @@
+﻿#supervisord.conf
+#从312行凯斯
+
+[program: chat]
+command=C:\\env\\chat_env\\Scripts\\daphne.exe -b 0.0.0.0 -p 8888 chat.asgi:application
+directory=C:\\code\\chat
+user=Administrator
+autostart=true
+autorestart=true
+startsecs=10
+redirect_stderr=true
+stdout_logfile=C:\\code\\chat\\logs\\superivsor_chat_out.log
+stderr_logfile=C:\\code\\chat\\logs\\supervisor_chat_err.log
+
+
+
+#nginx.conf
+#从116行
+server{
+        listen  443 ssl;
+        server_name hebeiyanling.cn;
+        ssl_certificate  C:\\nginx-1.22.0\\ssl\\hebeiyanling.cn.crt;
+        ssl_certificate_key C:\\nginx-1.22.0\\ssl\\hebeiyanling.cn.key;
+        ssl_session_timeout 5m;
+        client_max_body_size 0;
+
+        location /{
+            root lawfirm;
+            index   index.html index.htm;
+        }
+
+        location /app{
+        proxy_set_header  Host $host;
+        proxy_set_header  X-Real-IP  $remote_addr;
+        proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header  X-Forwarded-Proto   $scheme;
+        proxy_pass        http://localhost:8888;
+        # 关键配置 start
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        #关键配置 end
+        }
+
+    }
+
+
+supervisor的启动命令,先要启动虚拟环境
+cd C:\\env\\chat_env\\Scripts
+activate
+
+启动命令
+supervisord -c supervisord.conf

@@ -1,0 +1,158 @@
+2022-09-17 13:51:52,180 WARN For [program: chat], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2022-09-17 13:51:52,180 INFO process group added: 'chat'
+2022-09-17 13:51:52,195 INFO RPC interface 'supervisor' initialized
+2022-09-17 13:51:52,211 INFO supervisord started with pid 8352
+2022-09-17 13:51:52,711 INFO spawnerr: can't find command 'C:\\env\\chat_env\\Scripts\\waitress-server.exe'
+2022-09-17 13:51:54,758 INFO spawnerr: can't find command 'C:\\env\\chat_env\\Scripts\\waitress-server.exe'
+2022-09-17 13:51:57,789 INFO spawnerr: can't find command 'C:\\env\\chat_env\\Scripts\\waitress-server.exe'
+2022-09-17 13:52:00,883 WARN received SIGINT indicating exit request
+2022-09-17 13:52:01,398 INFO exit now...
+2022-09-17 13:52:04,180 WARN For [program: chat], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2022-09-17 13:52:04,180 INFO process group added: 'chat'
+2022-09-17 13:52:04,195 INFO RPC interface 'supervisor' initialized
+2022-09-17 13:52:04,195 INFO supervisord started with pid 8736
+2022-09-17 13:52:04,695 INFO spawnerr: can't find command 'C:\\env\\chat_env\\Scripts\\waitress-server.exe'
+2022-09-17 13:52:06,726 INFO spawnerr: can't find command 'C:\\env\\chat_env\\Scripts\\waitress-server.exe'
+2022-09-17 13:52:09,789 INFO spawnerr: can't find command 'C:\\env\\chat_env\\Scripts\\waitress-server.exe'
+2022-09-17 13:52:13,867 INFO spawnerr: can't find command 'C:\\env\\chat_env\\Scripts\\waitress-server.exe'
+2022-09-17 13:52:13,867 INFO gave up: chat entered FATAL state, too many start retries too quickly
+2022-09-17 13:52:17,914 WARN received SIGINT indicating exit request
+2022-09-17 13:52:18,414 INFO exit now...
+2022-09-17 13:54:35,820 WARN For [program: chat], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2022-09-17 13:54:35,820 INFO process group added: 'chat'
+2022-09-17 13:54:35,820 INFO RPC interface 'supervisor' initialized
+2022-09-17 13:54:35,820 INFO supervisord started with pid 2136
+2022-09-17 13:54:36,320 INFO spawnerr: can't find command 'C:\\env\\chat_env\\Scripts\\waitress-server.exe'
+2022-09-17 13:54:38,367 INFO spawnerr: can't find command 'C:\\env\\chat_env\\Scripts\\waitress-server.exe'
+2022-09-17 13:54:41,430 INFO spawnerr: can't find command 'C:\\env\\chat_env\\Scripts\\waitress-server.exe'
+2022-09-17 13:54:45,508 INFO spawnerr: can't find command 'C:\\env\\chat_env\\Scripts\\waitress-server.exe'
+2022-09-17 13:54:45,508 INFO gave up: chat entered FATAL state, too many start retries too quickly
+2022-09-17 13:57:26,435 WARN received SIGINT indicating exit request
+2022-09-17 13:57:26,951 INFO exit now...
+2022-09-17 13:57:36,982 WARN For [program: chat], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2022-09-17 13:57:36,982 INFO process group added: 'chat'
+2022-09-17 13:57:36,998 INFO RPC interface 'supervisor' initialized
+2022-09-17 13:57:36,998 INFO supervisord started with pid 5812
+2022-09-17 13:57:37,514 INFO spawnerr: can't find command 'C:\\env\\chat_env\\Scripts\\waitress-server.exe'
+2022-09-17 13:57:39,529 INFO spawnerr: can't find command 'C:\\env\\chat_env\\Scripts\\waitress-server.exe'
+2022-09-17 13:57:42,560 INFO spawnerr: can't find command 'C:\\env\\chat_env\\Scripts\\waitress-server.exe'
+2022-09-17 13:57:46,685 INFO spawnerr: can't find command 'C:\\env\\chat_env\\Scripts\\waitress-server.exe'
+2022-09-17 13:57:46,685 INFO gave up: chat entered FATAL state, too many start retries too quickly
+2022-09-17 14:03:01,366 WARN received SIGINT indicating exit request
+2022-09-17 14:03:01,882 INFO exit now...
+2022-09-17 14:03:03,273 WARN For [program: chat], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2022-09-17 14:03:03,273 INFO process group added: 'chat'
+2022-09-17 14:03:03,288 INFO RPC interface 'supervisor' initialized
+2022-09-17 14:03:03,288 INFO supervisord started with pid 5028
+2022-09-17 14:03:03,804 INFO spawnerr: can't find command 'C:\\env\\chat_env\\Scripts\\daphne'
+2022-09-17 14:03:06,835 INFO spawnerr: can't find command 'C:\\env\\chat_env\\Scripts\\daphne'
+2022-09-17 14:03:09,882 INFO spawnerr: can't find command 'C:\\env\\chat_env\\Scripts\\daphne'
+2022-09-17 14:03:13,976 INFO spawnerr: can't find command 'C:\\env\\chat_env\\Scripts\\daphne'
+2022-09-17 14:03:13,976 INFO gave up: chat entered FATAL state, too many start retries too quickly
+2022-09-17 14:03:50,975 WARN received SIGINT indicating exit request
+2022-09-17 14:03:51,475 INFO exit now...
+2022-09-17 14:07:16,410 WARN For [program: chat], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2022-09-17 14:07:16,410 INFO process group added: 'chat'
+2022-09-17 14:07:16,425 INFO RPC interface 'supervisor' initialized
+2022-09-17 14:07:16,425 INFO supervisord started with pid 8280
+2022-09-17 14:07:16,941 INFO spawnerr: can't find command 'C:\\env\\chat_env\\Scripts\\daphne'
+2022-09-17 14:07:18,988 INFO spawnerr: can't find command 'C:\\env\\chat_env\\Scripts\\daphne'
+2022-09-17 14:07:22,019 INFO spawnerr: can't find command 'C:\\env\\chat_env\\Scripts\\daphne'
+2022-09-17 14:07:26,097 INFO spawnerr: can't find command 'C:\\env\\chat_env\\Scripts\\daphne'
+2022-09-17 14:07:26,097 INFO gave up: chat entered FATAL state, too many start retries too quickly
+2022-09-17 14:07:50,581 WARN received SIGINT indicating exit request
+2022-09-17 14:07:51,097 INFO exit now...
+2022-09-17 14:08:47,252 WARN For [program: chat], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2022-09-17 14:08:47,252 INFO process group added: 'chat'
+2022-09-17 14:08:47,252 INFO RPC interface 'supervisor' initialized
+2022-09-17 14:08:47,252 INFO supervisord started with pid 4716
+2022-09-17 14:08:47,752 INFO Spawned: 'chat' with pid 5672
+2022-09-17 14:08:49,784 INFO exited: chat (exit status 1; not expected)
+2022-09-17 14:08:52,830 INFO Spawned: 'chat' with pid 5012
+2022-09-17 14:08:54,877 INFO exited: chat (exit status 1; not expected)
+2022-09-17 14:08:57,908 INFO Spawned: 'chat' with pid 6772
+2022-09-17 14:08:59,955 INFO exited: chat (exit status 1; not expected)
+2022-09-17 14:09:04,018 INFO Spawned: 'chat' with pid 2996
+2022-09-17 14:09:06,033 INFO exited: chat (exit status 1; not expected)
+2022-09-17 14:09:07,065 INFO gave up: chat entered FATAL state, too many start retries too quickly
+2022-09-17 14:09:28,470 WARN received SIGINT indicating exit request
+2022-09-17 14:09:28,970 INFO exit now...
+2022-09-17 14:09:30,627 WARN For [program: chat], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2022-09-17 14:09:30,627 INFO process group added: 'chat'
+2022-09-17 14:09:30,642 INFO RPC interface 'supervisor' initialized
+2022-09-17 14:09:30,642 INFO supervisord started with pid 5888
+2022-09-17 14:09:31,158 INFO Spawned: 'chat' with pid 324
+2022-09-17 14:09:32,174 INFO exited: chat (exit status 2; not expected)
+2022-09-17 14:09:34,205 INFO Spawned: 'chat' with pid 4208
+2022-09-17 14:09:35,220 INFO exited: chat (exit status 2; not expected)
+2022-09-17 14:09:38,283 INFO Spawned: 'chat' with pid 676
+2022-09-17 14:09:39,298 INFO exited: chat (exit status 2; not expected)
+2022-09-17 14:09:43,377 INFO Spawned: 'chat' with pid 6204
+2022-09-17 14:09:44,377 INFO exited: chat (exit status 2; not expected)
+2022-09-17 14:09:45,392 INFO gave up: chat entered FATAL state, too many start retries too quickly
+2022-09-17 14:11:41,564 WARN received SIGINT indicating exit request
+2022-09-17 14:11:42,079 INFO exit now...
+2022-09-17 14:11:49,627 WARN For [program: chat], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2022-09-17 14:11:49,627 INFO process group added: 'chat'
+2022-09-17 14:11:49,627 INFO RPC interface 'supervisor' initialized
+2022-09-17 14:11:49,627 INFO supervisord started with pid 2136
+2022-09-17 14:11:50,127 INFO Spawned: 'chat' with pid 1408
+2022-09-17 14:12:00,345 INFO success: chat entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2022-09-17 14:12:18,689 WARN received SIGINT indicating exit request
+2022-09-17 14:12:19,204 INFO waiting for chat to die
+2022-09-17 14:12:19,720 INFO stopped: chat (exit status 1)
+2022-09-17 14:12:19,720 WARN received SIGINT indicating exit request
+2022-09-17 14:12:20,220 INFO exit now...
+2022-09-17 14:12:29,501 WARN For [program: chat], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2022-09-17 14:12:29,501 INFO process group added: 'chat'
+2022-09-17 14:12:29,517 INFO RPC interface 'supervisor' initialized
+2022-09-17 14:12:29,517 INFO supervisord started with pid 4644
+2022-09-17 14:12:30,032 INFO Spawned: 'chat' with pid 6100
+2022-09-17 14:12:40,220 INFO success: chat entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2022-09-17 14:13:47,438 WARN received SIGINT indicating exit request
+2022-09-17 14:13:47,944 INFO waiting for chat to die
+2022-09-17 14:13:48,444 INFO stopped: chat (exit status 1)
+2022-09-17 14:13:48,444 WARN received SIGINT indicating exit request
+2022-09-17 14:13:48,959 INFO exit now...
+2022-09-17 14:13:50,850 WARN For [program: chat], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2022-09-17 14:13:50,865 INFO process group added: 'chat'
+2022-09-17 14:13:50,865 INFO RPC interface 'supervisor' initialized
+2022-09-17 14:13:50,865 INFO supervisord started with pid 7052
+2022-09-17 14:13:51,381 INFO Spawned: 'chat' with pid 6140
+2022-09-17 14:13:52,397 INFO exited: chat (exit status 2; not expected)
+2022-09-17 14:13:54,428 INFO Spawned: 'chat' with pid 6156
+2022-09-17 14:13:55,459 INFO exited: chat (exit status 2; not expected)
+2022-09-17 14:13:58,506 INFO Spawned: 'chat' with pid 7896
+2022-09-17 14:13:59,521 INFO exited: chat (exit status 2; not expected)
+2022-09-17 14:14:03,600 INFO Spawned: 'chat' with pid 3700
+2022-09-17 14:14:04,600 INFO exited: chat (exit status 2; not expected)
+2022-09-17 14:14:05,615 INFO gave up: chat entered FATAL state, too many start retries too quickly
+2022-09-17 14:15:43,333 WARN received SIGINT indicating exit request
+2022-09-17 14:15:43,849 INFO exit now...
+2022-09-17 14:15:46,099 WARN For [program: chat], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2022-09-17 14:15:46,099 INFO process group added: 'chat'
+2022-09-17 14:15:46,114 INFO RPC interface 'supervisor' initialized
+2022-09-17 14:15:46,114 INFO supervisord started with pid 6028
+2022-09-17 14:15:46,614 INFO Spawned: 'chat' with pid 8260
+2022-09-17 14:15:56,803 INFO success: chat entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2022-09-17 14:17:03,927 WARN received SIGINT indicating exit request
+2022-09-17 14:17:04,427 INFO waiting for chat to die
+2022-09-17 14:17:04,943 INFO stopped: chat (exit status 1)
+2022-09-17 14:17:04,943 WARN received SIGINT indicating exit request
+2022-09-17 14:17:05,443 INFO exit now...
+2022-09-17 14:19:33,114 WARN For [program: chat], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2022-09-17 14:19:33,114 INFO process group added: 'chat'
+2022-09-17 14:19:33,114 INFO RPC interface 'supervisor' initialized
+2022-09-17 14:19:33,114 INFO supervisord started with pid 8796
+2022-09-17 14:19:33,630 INFO Spawned: 'chat' with pid 5860
+2022-09-17 14:19:43,848 INFO success: chat entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2022-09-17 14:27:37,887 WARN received SIGINT indicating exit request
+2022-09-17 14:27:38,402 INFO waiting for chat to die
+2022-09-17 14:27:38,918 INFO stopped: chat (exit status 1)
+2022-09-17 14:27:39,433 INFO exit now...
+2022-09-17 14:28:20,808 WARN For [program: chat], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2022-09-17 14:28:20,808 INFO process group added: 'chat'
+2022-09-17 14:28:20,808 INFO RPC interface 'supervisor' initialized
+2022-09-17 14:28:20,808 INFO supervisord started with pid 8300
+2022-09-17 14:28:21,323 INFO Spawned: 'chat' with pid 6344
+2022-09-17 14:28:31,464 INFO success: chat entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
